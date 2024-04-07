@@ -211,7 +211,7 @@ results_json = Search().get_search_results_json()
 print(json.dumps(results_json, indent=1))
 ```
 
-Now, run the program with `python lib/open_library_api.py` in your terminal. You
+Now, run the program with `python3 lib/open_library_api.py` in your terminal. You
 should see something like this:
 
 ```json
